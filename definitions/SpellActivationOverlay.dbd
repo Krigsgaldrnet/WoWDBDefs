@@ -297,3 +297,17 @@ Field_9_1_5_39977_006<32>
 Scale
 TriggerType<8>
 TriggerSpell<32>
+
+LAYOUT 68416164
+BUILD 12.1.0.68569
+$noninline,id$ID<32>
+IconHighlightSpellClassMask<32>[4]
+SpellID<32>
+OverlayFileDataID<32>
+ScreenLocationID<32>
+SoundEntriesID<32>
+Color<32>
+Field_9_1_5_39977_006<32>
+Scale
+TriggerType<8>
+TriggerSpell<32>

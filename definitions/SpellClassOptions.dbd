@@ -156,3 +156,11 @@ SpellID<32>
 ModalNextSpell<u32>
 SpellClassSet<u8>
 SpellClassMask<32>[4]
+
+LAYOUT 1F8E4FD7
+BUILD 12.1.0.68569
+$noninline,id$ID<32>
+SpellID<32>
+ModalNextSpell<u32>
+SpellClassSet<32>
+SpellClassMask<32>[4]

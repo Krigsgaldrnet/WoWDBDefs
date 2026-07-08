@@ -276,3 +276,19 @@ ZoneMusicID<u32>
 TimeOfDayOverride<16>
 EffectMask<8>
 LightFlags<32>
+
+LAYOUT 35A3B574
+BUILD 12.1.0.68569
+$noninline,id$ID<32>
+Name
+Param<32>[4]
+Effect<8>
+FullScreenEffectID<u32>
+LightParamsID<u16>
+LightParamsFadeIn<32>
+LightParamsFadeOut<32>
+SoundAmbienceID<u32>
+ZoneMusicID<u32>
+TimeOfDayOverride<16>
+EffectMask<8>
+LightFlags<32>
