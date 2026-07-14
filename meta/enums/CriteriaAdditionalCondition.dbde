@@ -327,25 +327,31 @@
 326 PLAYER_HAS_VANILLA_CE // Player has Vanilla Collector\'s Edition
 327 PLAYER_HAS_ITEM_WITH_KEYSTONE_LEVEL_MODIFIER_EQ_OR_HIGHER
 329 PLAYER_MYTHIC_PLUS_RATING_IN_DISPLAY_SEASON_EQ_OR_HIGHER // Player has Mythic+ Rating of at least "{#DungeonScore}" in {DisplaySeason}
+332
 333 PLAYER_MYTHIN_PLUS_LADDER_RATING_IN_DISPLAY_SEASON_EQ_OR_HIGHER // Player has Mythic+ Ladder Rating of at least "{#DungeonScore}" in {DisplaySeason}
 334 MYTHIC_PLUS_RATING_IS_IN_TOP_01_PERCENT // Is top 0.1% rating
 335 PLAYER_AURA_WITH_LABEL_STACK_COUNT_EQ_OR_HIGHER // Player has at least {#Stacks} stacks of aura "{Label}"
 336 PLAYER_AURA_WITH_LABEL_STACK_COUNT_EQ // Target has exactly {#Stacks} stacks of aura with label "{Label}"
 337 PLAYER_AURA_WITH_LABEL_STACK_COUNT_EQ_OR_LESS // Player has at most {#Stacks} stacks of aura "{Label}"
 338 PLAYER_IS_IN_CROSS_FACTION_GROUP // Player is in a cross faction group
+339
 340 PLAYER_HAS_TRAIT_NODE_ENTRY_IN_ACTIVE_CONFIG // Player has {TraitNodeEntry} node in currently active config
 341 PLAYER_HAS_TRAIT_NODE_ENTRY_IN_ACTIVE_CONFIG_RANK_EQ_OR_HIGHER // Player has at least {#Rank} for {TraitNodeEntry} node in currently active config
 342 PLAYER_HAS_PURCHASED_COMBAT_TRAIT_RANKS // Player has purchased at least {#Count} talent points in active combat config
 343 PLAYER_HAS_PURCHASED_TRAIT_RANKS_IN_TRAIT_TREE // Player has purchased at least {#Count} ranks in {#TraitTree}
 344 PLAYER_DAYS_SINCE_LOGOUT
+345
+346
 347 CRAFTING_ORDER_SKILL_LINE_ABILITY
 348 CRAFTING_ORDER_PROFESSION
 350 PLAYER_HAS_PERKS_PROGRAM_PENDING_REWARD
 351 PLAYER_CAN_USE_ITEM // Player can use item {#Item}
 352 PLAYER_SUMMONED_BATTLE_PET_SPECIES // Battlepet species ID (unk)
 353 PLAYER_SUMMONED_BATTLE_PET_IS_MAX_LEVEL
+354
 355 PLAYER_HAS_AT_LEAST_PROF_PATH_RANKS // Player has purchased or granted at least {#Count} ranks in {SkillLine} config
 356 PLAYER_HAS_AT_LEAST_MISSING_PROF_PATH_RANKS // Player is missing least {#Count} ranks in {SkillLine} config
+357
 358 PLAYER_HAS_ITEM_TRANSMOGRIFIED_TO_ITEM_MODIFIED_APPEARANCE // Player has item with {ItemModifiedAppearance} transmog
 359 ITEM_HAS_BONUS_LIST // Item has {ItemBonusList} (used by ItemCondition)
 360 ITEM_HAS_BONUS_LIST_FROM_GROUP // Item has a bonus list from {ItemBonusListGroup} (used by ItemCondition)
@@ -360,6 +366,7 @@
 369 PLAYER_IS_BETWEEN_QUESTS // Player has previously completed quest or is on "{QuestV2}" but not "{QuestV2}" (SecondaryAsset)
 370 PLAYER_IS_ON_QUEST_WITH_LABEL // Player is on quest with {QuestLabel}
 371 PLAYER_SCENARIO_STEP_ID // Player is on scenario step number {ScenarioStep}
+372
 373 LEGACY_LOOT_ENABLED
 374 PLAYER_Z_POSITION_BELOW
 375 PLAYER_WEAPON_HIGH_WATERMARK_EQ_OR_HIGHER
@@ -368,10 +375,12 @@
 378 PLAYER_DATA_FLAG_ACCOUNT_IS_SET // Player {PlayerDataFlagAccount} is set
 379 PLAYER_DATA_FLAG_CHARACTER_IS_SET // Player {PlayerDataFlagCharacter} is set
 380 PLAYER_IS_ON_MAP_WITH_EXPANSION // Player is on map that has {ExpansionID}
+381
 382 PLAYER_HAS_COMPLETED_QUEST_ON_ACCOUNT // Player has previously completed quest "{QuestV2}" on account
 383 PLAYER_HAS_COMPLETED_QUESTLINE_ON_ACCOUNT // Player has completed questline "{Questline}" on account
 384 PLAYER_HAS_COMPLETED_QUESTLINE_QUEST_COUNT_ON_ACCOUNT // Player has completed "{#Quests}" quests in questline "{Questline}" on account
 385 PLAYER_HAS_ACTIVE_TRAIT_SUB_TREE // Player has active trait config with {TraitSubTree}
+386
 387 PLAYER_IS_IN_SOLO_RGB // Player is in solo RBG (BG Blitz)
 388 PLAYER_HAS_COMPLETED_CAMPAIGN // Player has completed campaign "{Campaign}"
 389 TARGET_CREATURE_CLASSIFICATION_EQ // Creature classification is {CreatureClassification}
@@ -379,4 +388,37 @@
 391 PLAYER_DATA_ELEMENT_ACCOUNT_EQ // Player {PlayerDataElementAccount} is greater than {#Amount}
 392 PLAYER_HAS_COMPLETED_QUEST_OR_IS_READY_TO_TURN_IN // Player has previously completed quest "{QuestV2}" or is ready to turn it in
 393 PLAYER_TITLE // Player is currently using "{ChrTitles}" title
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
 404 PLAYER_IS_IN_GUILD // Player is in a guild
+406
+407
+408
+409
+412
+416
+417
+418
+419
+420
+423
+426
+427
+428
+429
+430
+431
+432
+433
+436
+437
+438
+440

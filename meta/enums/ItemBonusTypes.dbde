@@ -22,11 +22,15 @@
 21 CanDisenchant
 22 CanScrap
 23 ItemEffectID
+24
 25 ModifiedCraftingStat
+26
 27 RequiredLevelCurve
 28 Icon FileDataID
+29
 30 ItemDescription
 31 ItemNameDescriptionID
+32
 33 UpgradeSequenceValue
 34 ItemBonusListGroupID
 35 ItemLimitCategoryID
