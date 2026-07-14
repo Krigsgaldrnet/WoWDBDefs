@@ -9,15 +9,6 @@ int WeightCost?
 int Field_12_0_0_63724_002? // DBAnalyser: [Field_12_0_0_63534_002, 0,95%]
 int Field_12_0_0_63967_001?
 int Field_12_0_5_66330_007?
-locstring Field_12_1_0_68675_000_lang?
-int Field_12_1_0_68675_001?
-int Field_12_1_0_68675_002?
-int Field_12_1_0_68675_003?
-int Field_12_1_0_68675_004?
-int Field_12_1_0_68675_005?
-int Field_12_1_0_68675_006?
-int Field_12_1_0_68675_007?
-int Field_12_1_0_68675_008?
 int Field_12_1_0_68675_009?
 
 LAYOUT 9F9F9290
@@ -74,13 +65,13 @@ Field_12_0_5_66330_007<32>
 
 LAYOUT F04DC279
 BUILD 12.1.0.68675
-Field_12_1_0_68675_000_lang
-$id$Field_12_1_0_68675_001<32>
-Field_12_1_0_68675_002<8>
-Field_12_1_0_68675_003<32>
-Field_12_1_0_68675_004<32>
-Field_12_1_0_68675_005<32>
-Field_12_1_0_68675_006<32>
-Field_12_1_0_68675_007<32>
-Field_12_1_0_68675_008<32>
+Name_lang
+$id$ID<32>
+Field_12_0_0_63967_001<8>
+Flags<32>
+Field_12_0_0_63724_002<32>
+RoomWmoDataID<32>
+UiTextureAtlasElementID<32>
+WeightCost<32>
+Field_12_0_5_66330_007<32>
 Field_12_1_0_68675_009<32>

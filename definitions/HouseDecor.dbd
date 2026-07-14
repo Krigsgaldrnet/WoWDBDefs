@@ -17,23 +17,6 @@ int OrderIndex?
 int Field_12_0_0_63534_015?
 int StartingQuantity?
 int<UiModelScene::ID> UiModelSceneID?
-locstring Field_12_1_0_68675_000_lang?
-float Field_12_1_0_68675_001?
-int Field_12_1_0_68675_002?
-int Field_12_1_0_68675_003?
-int Field_12_1_0_68675_004?
-int Field_12_1_0_68675_005?
-int Field_12_1_0_68675_006?
-int Field_12_1_0_68675_007?
-int Field_12_1_0_68675_008?
-int Field_12_1_0_68675_009?
-int Field_12_1_0_68675_010?
-float Field_12_1_0_68675_011?
-int Field_12_1_0_68675_012?
-int Field_12_1_0_68675_013?
-int Field_12_1_0_68675_014?
-int Field_12_1_0_68675_015?
-int Field_12_1_0_68675_016?
 
 LAYOUT A2E1530F
 BUILD 11.2.5.62785, 11.2.5.62940, 11.2.5.63092, 11.2.5.63286, 11.2.5.63506, 11.2.5.63660, 11.2.5.63704, 11.2.5.63796, 11.2.5.63825, 11.2.5.63834, 11.2.5.63906, 11.2.5.64154, 11.2.5.64270, 11.2.5.64395, 11.2.5.64484, 11.2.5.64502
@@ -97,20 +80,20 @@ UiModelSceneID<32>
 
 LAYOUT 6A051268
 BUILD 12.1.0.68675
-Field_12_1_0_68675_000_lang
-Field_12_1_0_68675_001[3]
-$id$Field_12_1_0_68675_002<32>
-Field_12_1_0_68675_003<32>
-Field_12_1_0_68675_004<32>
-Field_12_1_0_68675_005<u8>
-Field_12_1_0_68675_006<u8>
-Field_12_1_0_68675_007<32>
-Field_12_1_0_68675_008<32>
-Field_12_1_0_68675_009<32>
-Field_12_1_0_68675_010<32>
-Field_12_1_0_68675_011
-Field_12_1_0_68675_012<32>
-Field_12_1_0_68675_013<32>
-Field_12_1_0_68675_014<8>
-Field_12_1_0_68675_015<32>
-Field_12_1_0_68675_016<32>
+Name_lang
+InitialRotation[3]
+$id$ID<32>
+GameObjectID<32>
+Flags<32>
+Type<u8>
+ModelType<u8>
+ModelFileDataID<32>
+ThumbnailFileDataID<32>
+WeightCost<32>
+ItemID<32>
+InitialScale
+FirstTimeAcquisitionXP<32>
+OrderIndex<32>
+Field_12_0_0_63534_015<8>
+StartingQuantity<32>
+UiModelSceneID<32>
