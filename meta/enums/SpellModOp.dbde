@@ -38,3 +38,4 @@
 37 MaxAuraStacks
 38 ProcCooldown
 39 PowerCost2 // Used when SpellPowerEntry::PowerIndex == 2
+40
