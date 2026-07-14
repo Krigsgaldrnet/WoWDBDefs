@@ -1,20 +1,20 @@
 COLUMNS
 int ID
-int State0WMO
+int<GameObjectDisplayInfo::ID> State0WMO
 int State0ImpactEffectDoodadSet
 int State0AmbientDoodadSet
 int State0NameSet
-int State1WMO
+int<GameObjectDisplayInfo::ID> State1WMO
 int State1DestructionDoodadSet
 int State1ImpactEffectDoodadSet
 int State1AmbientDoodadSet
 int State1NameSet
-int State2WMO
+int<GameObjectDisplayInfo::ID> State2WMO
 int State2DestructionDoodadSet
 int State2ImpactEffectDoodadSet
 int State2AmbientDoodadSet
 int State2NameSet
-int State3WMO
+int<GameObjectDisplayInfo::ID> State3WMO
 int State3InitDoodadSet
 int State3AmbientDoodadSet
 int State3NameSet

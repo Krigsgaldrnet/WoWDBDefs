@@ -14,7 +14,7 @@ int<FileData::ID> HdFileDataID
 int<TextureFileData::MaterialResourcesID> HDBakeMaterialResourcesID
 int<TextureFileData::MaterialResourcesID> BakeMaterialResourcesID
 int CustomDisplayOption
-int DisplayClassID
+int<ChrClasses::ID> DisplayClassID
 string BakeName
 
 BUILD 0.5.3.3368

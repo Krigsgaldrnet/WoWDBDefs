@@ -98,6 +98,7 @@ ENUM ChrRaces::UnalteredVisualRaceID ChrRaceID // Not a real enum, but for ease
 ENUM ChrRaceXChrModel::ChrModelID ChrModelID // Not a real enum, but for ease
 ENUM ChrRaceXChrModel::ChrRacesID ChrRaceID // Not a real enum, but for ease
 ENUM ChrSpecialization::Role ChrSpecializationRole
+ENUM CollectableSourceInfo::SourceTypeEnum TransmogSourceType
 ENUM ContentRestrictionRule::ExpansionID ExpansionLevels
 ENUM ContentRestrictionRule::RuleType ContentRestrictionRuleTypes
 ENUM ContentTuning::ExpansionID ExpansionLevels
@@ -553,6 +554,7 @@ FLAGS SpellMisc::SchoolMask DamageClass
 FLAGS SpellShapeshiftForm::Flags SpellShapeshiftFormFlags
 FLAGS SpellTargetRestrictions::TargetCreatureType TargetCreatureType // Seeded from CreatureType.db2
 FLAGS SpellTargetRestrictions::Targets TargetFlags
+FLAGS SpellVisualKitModelAttach::Flags SpellVisualKitModelAttachFlags 
 FLAGS Stationery::Flags StetioneryFlags
 FLAGS SummonProperties::Flags SummonPropertiesFlags
 FLAGS SummonProperties::Flags[0] SummonPropertiesFlags

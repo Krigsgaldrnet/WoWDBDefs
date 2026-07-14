@@ -8,7 +8,7 @@ int<AnimKit::ID> AnimKitID
 int AttachmentID
 int<AnimationData::ID> EndAnimID
 int Flags
-int LowDefModelAttachID
+int<SpellVisualKitModelAttach::ID> LowDefModelAttachID
 float Offset
 float OffsetVariation
 int<SpellVisualKit::ID> ParentSpellVisualKitID
