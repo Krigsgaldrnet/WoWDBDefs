@@ -33,8 +33,8 @@ int<FileData::ID> LowResScreenFileDataID
 int<CreatureDisplayInfo::ID> HighResMaleDisplayID
 int<CreatureDisplayInfo::ID> HighResFemaleDisplayID
 int<CharComponentTextureLayouts::ID> CharComponentTexLayoutHiResID
-int<SpellVisualKIt::ID> AlteredFormFinishVisualKitID
-int<SpellVisualKIt::ID> AlteredFormStartVisualKitID
+int<SpellVisualKit::ID> AlteredFormFinishVisualKitID
+int<SpellVisualKit::ID> AlteredFormStartVisualKitID
 int DisplayRaceID
 int<FileData::ID> FemaleSkeletonFileDataID
 int<Achievement::ID> HeritageArmorAchievementID
