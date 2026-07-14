@@ -118,6 +118,7 @@ ENUM EmotesTextSound::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM EnumeratedString::EnumID EnumNames // so meta
 ENUM EnvironmentalDamage::EnumID EnvironmentalDamageType
 ENUM ExpectedStat::ExpansionID ExpectedStatExpansionID
+ENUM GameObjects::TypeID GameObjectType
 ENUM GarrAbilityEffect::AbilityAction GarrAbilityAction
 ENUM GarrAbilityEffect::AbilityTargetType GarrAbilityTargetType
 ENUM GarrAutoCombatant::Role GarrAutoCombatantRole
@@ -401,6 +402,7 @@ FLAGS Faction::ReputationRaceMasks2[1] RaceMask1
 FLAGS Faction::ReputationRaceMasks3[0] RaceMask0
 FLAGS Faction::ReputationRaceMasks3[1] RaceMask1
 FLAGS FriendshipReputation::Flags FriendshipReputationFlags
+FLAGS GameObjects::Flags GameObjectFlags
 FLAGS GarrAbility::Flags GarrAbilityFlags
 FLAGS GarrAbilityEffect::Flags GarrAbilityEffectFlags
 FLAGS GarrAutoSpell::Flags GarrAutoSpellFlags
