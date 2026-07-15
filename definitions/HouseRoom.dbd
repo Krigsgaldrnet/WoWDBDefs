@@ -6,10 +6,10 @@ int Field_12_0_0_63534_002?
 int<RoomWmoData::ID> RoomWmoDataID?
 int<UiTextureAtlasElement::ID> UiTextureAtlasElementID?
 int WeightCost?
-int Field_12_0_0_63724_002? // DBAnalyser: [Field_12_0_0_63534_002, 0,95%]
+int Field_12_0_0_63724_002?
 int Field_12_0_0_63967_001?
-int Field_12_0_5_66330_007?
-int Field_12_1_0_68675_009?
+int<Item::ID> ItemID?
+int SortPriority?
 
 LAYOUT 9F9F9290
 BUILD 12.0.0.63534
@@ -61,7 +61,7 @@ Field_12_0_0_63724_002<32>
 RoomWmoDataID<32>
 UiTextureAtlasElementID<32>
 WeightCost<32>
-Field_12_0_5_66330_007<32>
+ItemID<32>
 
 LAYOUT F04DC279
 BUILD 12.1.0.68675
@@ -73,5 +73,5 @@ Field_12_0_0_63724_002<32>
 RoomWmoDataID<32>
 UiTextureAtlasElementID<32>
 WeightCost<32>
-Field_12_0_5_66330_007<32>
-Field_12_1_0_68675_009<32>
+ItemID<32>
+SortPriority<32>
