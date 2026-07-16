@@ -422,6 +422,7 @@ FLAGS GroupFinderActivity::Flags GroupFinderActivityFlags
 FLAGS GroupFinderCategory::Flags GroupFinderCategoryFlags
 FLAGS Holidays::Flags HolidayFlags
 FLAGS HouseDecor::Flags HouseDecorFlags
+FLAGS HouseExteriorWmoData::Flags HouseExteriorWMODataFlags
 FLAGS HouseRoom::Flags HouseRoomFlags
 FLAGS ItemBonusList::Flags ItemBonusListFlags
 FLAGS ItemBonusListGroupEntry::Flags ItemBonusListGroupEntryFlags

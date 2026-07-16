@@ -1,0 +1,4 @@
+0x1 UnlockedByDefault
+0x2 AllowedInHordeNeighborhoods
+0x4 AllowedInAllianceNeighborhoods
+0x8 HiddenUnlessOwned
