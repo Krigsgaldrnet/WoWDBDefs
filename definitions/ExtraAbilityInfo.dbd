@@ -3,7 +3,7 @@ locstring TutorialText_lang?
 int ID?
 int<Spell::ID> SpellID?
 int<Spell::ID> ActionBarOverrideSpellID?
-int<SpellLabel::LabelID> SpellLabel?
+int LabelID?
 int<UiTextureKit::ID> UiTextureKitID?
 int UiPriority?
 
@@ -16,7 +16,7 @@ TutorialText_lang
 $id$ID<32>
 $relation$SpellID<32>
 ActionBarOverrideSpellID<32>
-SpellLabel<32>
+LabelID<32>
 UiTextureKitID<32>
 UiPriority<32>
 
@@ -30,7 +30,7 @@ $noninline,id$ID<32>
 TutorialText_lang
 $relation$SpellID<32>
 ActionBarOverrideSpellID<32>
-SpellLabel<32>
+LabelID<32>
 UiTextureKitID<32>
 UiPriority<32>
 
@@ -53,7 +53,7 @@ $noninline,id$ID<32>
 TutorialText_lang
 $relation$SpellID<32>
 ActionBarOverrideSpellID<32>
-SpellLabel<32>
+LabelID<32>
 UiTextureKitID<32>
 UiPriority<32>
 
@@ -77,6 +77,6 @@ $noninline,id$ID<32>
 TutorialText_lang
 $relation$SpellID<32>
 ActionBarOverrideSpellID<32>
-SpellLabel<32>
+LabelID<32>
 UiTextureKitID<32>
 UiPriority<32>

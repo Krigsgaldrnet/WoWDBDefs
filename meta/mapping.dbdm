@@ -102,9 +102,11 @@ ENUM CollectableSourceInfo::SourceTypeEnum TransmogSourceType
 ENUM ContentRestrictionRule::ExpansionID ExpansionLevels
 ENUM ContentRestrictionRule::RuleType ContentRestrictionRuleTypes
 ENUM ContentTuning::ExpansionID ExpansionLevels
+ENUM ContentTuningXLabel::LabelID LabelName
 ENUM CraftingData::Type CraftingDataType
 ENUM CreatureDifficulty::ExpansionID ExpansionLevels
 ENUM CreatureDisplayInfoExtra::DisplayRaceID ChrRaceID // Not a real enum, but for ease
+ENUM CreatureLabel::LabelID LabelName
 ENUM Criteria::Fail_event CriteriaFailEvent
 ENUM Criteria::Start_event CriteriaStartEvent
 ENUM Criteria::Type CriteriaType
@@ -117,7 +119,9 @@ ENUM Emotes::EmoteSpecProc EmoteSpecProc
 ENUM EmotesTextSound::RaceID ChrRaceID // Not a real enum, but for ease
 ENUM EnumeratedString::EnumID EnumNames // so meta
 ENUM EnvironmentalDamage::EnumID EnvironmentalDamageType
+ENUM ExtraAbilityInfo::LabelID LabelName
 ENUM ExpectedStat::ExpansionID ExpectedStatExpansionID
+ENUM GameObjectLabel::LabelID LabelName
 ENUM GameObjects::TypeID GameObjectType
 ENUM GarrAbilityEffect::AbilityAction GarrAbilityAction
 ENUM GarrAbilityEffect::AbilityTargetType GarrAbilityTargetType
@@ -138,6 +142,7 @@ ENUM GarrTalentSocketProperties::GarrTalentSocketType GarrTalentSocketType
 ENUM GarrTalentTree::FeatureSubtypeIndex GarrTalentTreeFeatureSubtypeIndex
 ENUM GarrTalentTree::FeatureTypeIndex GarrTalentTreeFeatureTypeIndex
 ENUM GarrType::ExpansionID ExpansionLevels
+ENUM GlideEvent::LabelID LabelName
 ENUM GlobalCurve::Type GlobalCurveType
 ENUM GlobalGameContentTuning::ExpansionID ExpansionLevels
 ENUM GlobalTable_PlayerCondition::What GlobalTablePlayerConditionWhat
@@ -177,6 +182,7 @@ ENUM ItemBonus::Value[0] ItemBonding ItemBonus::Type=16
 ENUM ItemBonus::Value[0] ItemStatType ItemBonus::Type=25
 ENUM ItemBonus::Value[1] SocketColor ItemBonus::Type=6
 ENUM ItemBonusTreeNode::ItemContext ItemContext
+ENUM ItemContextPickerEntry::LabelID LabelName
 ENUM ItemDisenchantLoot::ExpansionID ExpansionLevels
 ENUM ItemDisplayInfoMaterialRes::ComponentSection ComponentSection
 ENUM ItemDisplayInfoModelMatRes::TextureType TextureType
@@ -203,6 +209,7 @@ ENUM ItemSparse::StatModifier_bonusStat[9] ItemStatType
 ENUM JournalEncounterItem::DifficultyMask JournalEncounterItemDifficulty // mask? is this flags?
 ENUM JournalEncounterItem::FactionMask JournalEncounterItemFactionType // mask? is this flags?
 ENUM JournalEncounterSection::Type JournalEncounterSectionType
+ENUM LabelXContentRestrictRuleSet::LabelID LabelName
 ENUM LFGDungeons::Subtype LFGSubType
 ENUM LFGDungeons::TypeID LFGType
 ENUM LiquidTypeXTexture::Type LiquidTypeTextureType
@@ -215,6 +222,7 @@ ENUM ModifierTree::Asset ItemQuality ModifierTree::Type=15
 ENUM ModifierTree::Operator ModifierTreeOperator
 ENUM ModifierTree::Type CriteriaAdditionalCondition
 ENUM NameGen::RaceID ChrRaceID // Not a real enum, but for ease
+ENUM NPCCraftingOrderCustomerXLabel::LabelID LabelName
 ENUM NPCModelItemSlotDisplayInfo::ItemSlot ItemSlot
 ENUM ObjectEffectPackageElem::StateType ObjectEffectPackageStateType
 ENUM PathProperty::PropertyIndex PathProperty
@@ -223,6 +231,8 @@ ENUM PlayerInteractionInfo::Type PlayerInteractionType
 ENUM PowerType::PowerTypeEnum PowerType
 ENUM Profession::ProfessionEnumValue ProfessionEnumValue
 ENUM ProfessionExpansion::ExpansionID ExpansionLevels
+ENUM ProfessionTraitXLabel::LabelID LabelName
+ENUM QuestLabel::LabelID LabelName
 ENUM QuestInfo::Type QuestTagType
 ENUM QuestObjective::Type QuestObjectiveType
 ENUM RelicTalent::Type RelicTalentType
@@ -268,7 +278,7 @@ ENUM SpellItemEnchantment::Effect[2] SpellItemEnchantmentEffect
 ENUM SpellItemEnchantment::EffectArg[0] ItemStatType SpellItemEnchantment::Effect[0]=5
 ENUM SpellItemEnchantment::EffectArg[1] ItemStatType SpellItemEnchantment::Effect[1]=5
 ENUM SpellItemEnchantment::EffectArg[2] ItemStatType SpellItemEnchantment::Effect[2]=5
-ENUM SpellLabel::LabelID SpellLabelName
+ENUM SpellLabel::LabelID LabelName
 ENUM SpellScript::Arguments SpellScriptArgs
 ENUM SpellVisualEffectName::Type SpellVisualEffectNameType
 ENUM SpellVisualEvent::EndEvent SpellVisualEventEvent

@@ -1,7 +1,7 @@
 COLUMNS
 int ID
 int<ContentRestrictionRuleSet::ID> ContentRestrictionRuleSetID?
-int<SpellLabel::LabelID> LabelID?
+int LabelID?
 int Flags?
 
 LAYOUT 682EA64A
